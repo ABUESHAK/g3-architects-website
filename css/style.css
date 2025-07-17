@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* shared css */
+main{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.text-primary{
+  color: #FF900E;
+}
+.btn-primary{
+  background-color: #FF900E;
+  padding: 20px 25px;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+.display-flex{
+  display: flex; 
+}
+
+
+/* dark2 */
+.text-gray{
+  color: #424242;
+}
+/* dark3 */
+.text-light-gray{
+ color: #727272;
+}
+
+.bg-light{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+main > section{
+  margin-top: 130px;
+}
+/* header css */
+header{
+  padding: 30px 0px;
+}
+
+
+
+/* navbar css */
+.brand{
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+.navbar{
+  justify-content: space-between;
+  align-items: center;
+  ;
+
+}
+
+
+.nav-link{
+  text-decoration: none;
+  margin-right: 30px;
+}
+.nav-item{
+  list-style: none;
+}
+
+.navbar, .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* banner css */
+
+.banner-content{
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+}
+.banner-image{
+  width: 100%;
+}
+
+.banner-title{
+  font-size: 4rem;
+  font-weight: bold;
+
+}
+.banner-description{
+  font-size: 1rem;
+  margin-top: 15px;
+}
+
+.btn-primary{
+  margin-top: 32px;
+  margin-bottom: 50px;
+}
+
+/* team and feature css */
+
+.teams{
+  align-items: center;
+}
+
+.team-img-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.our-features{
+  max-width: 530px;
+  margin-left: 130px;
+
+}
+
+
+.features-title{
+  font-size: 3.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#quicklist{
+  font-weight: 400;
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+  .navbar, .nav-links{
+    flex-direction: column;
+  }
+}
